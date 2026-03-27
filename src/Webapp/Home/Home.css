@@ -1,0 +1,132 @@
+@font-face{
+   src:url("../../font/montserrat/Montserrat-Black.ttf");
+   font-family:montserrat;
+}
+@font-face{
+   src:url("../../font/montserrat/Montserrat-Bold.otf");
+   font-family:montserratbold;
+}
+body {
+  font-family:sofia regular;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white;
+  color: black;
+}
+.App-link {
+  color: #61dafb;
+}
+.banner{
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../Images/Images/Home/Banner/b.png'); 
+          background-repeat: no-repeat;
+          background-size: cover;
+          width:100%;
+          height:500px;
+          font-size:35px;
+          color: white;    
+          font-family:montserrat;
+}
+
+@media (min-width:1025px) {
+.img1{
+
+          width:100%;
+
+}
+}
+@media (min-width:768px) {
+.img1{
+
+          width:100%;
+          
+
+}
+}
+@media (max-width:767px) {
+.img1{
+          width:100%;
+
+}
+}
+#h51{
+      font-family: montserratbold;
+      color: darkgoldenrod;
+      font-size:15px;
+      display: block;
+
+}
+@media (max-width:767px) {
+#h51{
+      font-family: montserratbold;
+      color: darkgoldenrod;
+      font-size:15px;
+      display: block;
+      margin-top:30px;
+ 
+
+}
+}
+@media(max-width:1200px) {
+#h21{
+      font-family: montserratbold;
+      color: black;
+      width:100%;
+      display: block;
+      font-size:20px;
+}
+}
+@media(min-width:1201px) {
+#h21{
+      font-family: montserratbold;
+      color: black;
+      width:90%;
+      display: block;
+      font-size:30px;
+ 
+}
+}
+@media(max-width:767px) {
+#h21{
+      font-family: montserratbold;
+      color: black;
+      width:90%;
+      display: block;
+      font-size:20px;
+ 
+}
+}
+
+@media (max-width:767px) {
+#p1{
+
+       font-family:montserratbold;
+ 
+
+}
+}
+@media (min-width:768px) {
+#p1{
+
+       font-family:montserratbold;
+       font-size: 10px;
+ 
+}
+}
+@media (min-width:1024px) {
+#p1{
+
+       font-family:montserratbold;
+       font-size:14px;
+      
+ 
+
+}
+}
+@media (max-width:1024px) {
+#tv{
+        
+      
+
+ }
+}

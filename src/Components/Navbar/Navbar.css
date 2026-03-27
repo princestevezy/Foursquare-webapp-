@@ -1,0 +1,79 @@
+body{
+      color: black;
+
+}
+@font-face{
+   src:url("../../font/poppins/Poppins-Bold.ttf");
+   font-family:poppins;
+}
+@font-face{
+   src:url("../../font/poppins/Poppins-Black.ttf");
+   font-family:lightpoppins;
+}
+.church-logo {
+  height:54px;
+  
+}
+@media (max-width: 576px) {
+.church-logo {
+  height:30px;
+  
+}
+}
+@media (max-width: 600px) {
+  .church-img1{
+              width:300px;
+              height:300px;
+              margin-top:-20px;
+}
+}
+@media (min-width: 600px) {
+  .church-img1{
+              width:300px;
+              height:300px;
+              margin-top:-20px;
+
+}
+}
+@media (min-width:1025px) {
+.church-img1{
+              width:400px;
+              height:300px;
+              margin-top:-20px;
+ 
+}
+}
+#heading1{
+          color:black;
+          font-weight:300px;
+          font-size:19px;
+          font-weight: bold;
+          font-family:poppins;
+}
+
+@media (min-width:993px) {
+.navlink1{        
+           font-family:lightpoppins;
+           font-size: smaller;
+           font-weight: lighter;   
+           
+}
+}
+@media (max-width:992px) {
+.navlink1{        
+           font-family:lightpoppins;
+           font-size: smaller;
+           font-weight: lighter;     
+           text-align: center;
+}
+}
+@media (max-width: 576px) {
+.navcolor{        
+           background-color: #ffffff;         
+           
+}
+}
+
+
+
+
