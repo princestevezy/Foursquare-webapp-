@@ -4,12 +4,13 @@ import { Container,Nav,Navbar,Row, Col } from "react-bootstrap";
 import Logo from "../../Images/Components/Navbar/four.png";
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Form from 'react-bootstrap/Form';
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 
 
 
-function Navbar1(){
+function Navbar1(active){
  return(
       <div>
     <Navbar bg="" variant="" expand="lg" className='navcolor'>
@@ -22,12 +23,12 @@ function Navbar1(){
         {/* Collapsible content */}
          <Container className="d-flex justify-content-end">
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto navlink1">
-            <Nav.Link href="#" className='mx-3' >HOME</Nav.Link>
-            <Nav.Link href="#" className='mx-3'>ABOUT US</Nav.Link>
-             <Nav.Link href="#"  className='mx-3'>SERVE</Nav.Link>
-              <Nav.Link href="#"  className='mx-3'>MEDIA</Nav.Link>
-            <Nav.Link src="#"  className='mx-3'>CONTACT US</Nav.Link>
+          <Nav className="ms-auto">
+            <Link to="/home" className='mx-3 navlink1'   style={active.home}>HOME</Link>
+            <Link to="/about" className='mx-3 navlink1'  style={active.about}> ABOUT US</Link>
+             <Link to="#"  className='mx-3 navlink1'  style={active.serve}>SERVE</Link>
+              <Link to=""  className='mx-3 navlink1'  style={active.media}>MEDIA</Link>
+            <Link to="#"  className='mx-3 navlink1'  style={active.contact}>CONTACT US</Link>
           </Nav>
         </Navbar.Collapse>
        </Container>

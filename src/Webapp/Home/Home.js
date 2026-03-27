@@ -8,7 +8,7 @@ import './Home.css';
 function Home() {
   return (
     <div>
-      <Navbar1 />
+      <Navbar1 home={{borderBottom:'3px solid red'}}/>
       <div class='cover'>
         <div class='banner d-flex justify-content-center align-items-center text-center '>
           <br />
