@@ -19,7 +19,7 @@ function Home() {
             <br />
             to Loving God
             <br />
-            <Button variant="danger" size="lg">
+            <Button variant="danger" size="sm">
               About Us
             </Button>
           </Container>
@@ -49,13 +49,14 @@ function Home() {
           <br/>
       </Container>  
       <br/>
-        <div class='banner1 justify-content-center align-items-center text-center'>
-         <br/>
-      <Row className="align-items-center justify-content-center"> 
+      <div class='banner1'>
+       <br/>
+       <Container>
+      <Row> 
       <Col xs={12} md={4}> 
-      <Card style={{ width: '14rem' }}>
+      <Card  className="bg-dark">
       <Card.Img variant="top" src={four1} />
-      <Card.Body className="bg-dark">
+      <Card.Body>
         <Card.Title className="fs-5">Card Title</Card.Title>
         <Card.Text style={{ fontSize: "10px" }} className="text-white">
           Some quick example text to build on the card title and make up the
@@ -66,7 +67,7 @@ function Home() {
     </Card>
     </Col>
     <Col xs={12} md={4}>
-      <Card style={{ width: '14rem' }}>
+      <Card  className="bg-dark">
       <Card.Img variant="top" src={four1}/>
       <Card.Body className="bg-dark">
         <Card.Title className="fs-5">Card Title</Card.Title>
@@ -79,7 +80,7 @@ function Home() {
     </Card>
     </Col>
     <Col xs={12} md={4}>
-      <Card style={{ width: '14rem' }}>
+      <Card  className="bg-dark">
       <Card.Img variant="top" src={four1} />
       <Card.Body className="bg-dark">
         <Card.Title className="fs-5">Card Title</Card.Title>
@@ -87,11 +88,12 @@ function Home() {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Play</Button>
       </Card.Body>
     </Card>
     </Col>
     </Row>
+    </Container>
       </div>
        <br/>
     <br/>
