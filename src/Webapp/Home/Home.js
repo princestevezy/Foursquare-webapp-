@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar1 from "../../Components/Navbar/Navbar";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
+import  Card  from "react-bootstrap/Card";
 import Button from 'react-bootstrap/Button';
 import four1 from '../../Images/Images/Home/4f.jpg';
 import './Home.css';
@@ -10,7 +11,7 @@ function Home() {
     <div>
       <Navbar1 home={{borderBottom:'3px solid red'}}/>
       <div class='cover'>
-        <div class='banner d-flex justify-content-center align-items-center text-center '>
+        <div class='banner d-flex justify-content-center align-items-center text-center'>
           <br />
           <br />
           <Container>
@@ -26,7 +27,7 @@ function Home() {
       </div>
       <br />
        <Container id="tv">
-        <div className="d-flex justify-content-center">
+        <div className="d-flex align-items-center justify-content-center">
           <Row>
             <Col xs={12} md={6}>
               <img className='img1' src={four1}></img>
@@ -47,7 +48,58 @@ function Home() {
          <br/>
           <br/>
       </Container>  
-    </div>
+      <br/>
+        <div class='banner1 justify-content-center align-items-center text-center'>
+         <br/>
+      <Row className="align-items-center justify-content-center"> 
+      <Col xs={12} md={4}> 
+      <Card style={{ width: '14rem' }}>
+      <Card.Img variant="top" src={four1} />
+      <Card.Body className="bg-dark">
+        <Card.Title className="fs-5">Card Title</Card.Title>
+        <Card.Text style={{ fontSize: "10px" }} className="text-white">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+    </Col>
+    <Col xs={12} md={4}>
+      <Card style={{ width: '14rem' }}>
+      <Card.Img variant="top" src={four1}/>
+      <Card.Body className="bg-dark">
+        <Card.Title className="fs-5">Card Title</Card.Title>
+        <Card.Text style={{ fontSize: "10px" }} className="text-white">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+    </Col>
+    <Col xs={12} md={4}>
+      <Card style={{ width: '14rem' }}>
+      <Card.Img variant="top" src={four1} />
+      <Card.Body className="bg-dark">
+        <Card.Title className="fs-5">Card Title</Card.Title>
+        <Card.Text style={{ fontSize: "10px" }} className="text-white">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+    </Col>
+    </Row>
+      </div>
+       <br/>
+    <br/>
+     <br/>
+    <br/>
+    <br/>
+    <br/>
+  </div>
 
   );
 }
