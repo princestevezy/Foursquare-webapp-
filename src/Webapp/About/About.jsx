@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar1 from "../../Components/Navbar/Navbar";
 import { Container, Row, Col, FormGroup } from "react-bootstrap";
-import fi from '../../Images/Images/About/Fi.png';
+import fi from '../../Images/Components/Fi.png';
 import Logo from "../../Images/Components/Navbar/four.png";
+import i_c from '../../Images/Images/About/i_c.png';
 import { Link } from "react-router-dom";
 import './About.css';
 
@@ -32,44 +33,50 @@ function About() {
         </video>
         <br />
         <br />
-        <br />
-        <div>
-          <h3 className="text-center text-black" id='h21'>Supporting leaders</h3>
-          <p className="text-center" id="p1">We are committed to supporting leaders in their personal and spiritual growth, providing resources and
-            opportunities for development, and fostering a culture of mentorship and collaboration.</p>
-        </div>
-        <br />
-        <br />
+        <br/>
+        <br/>
       </Container>
       <div class='invitation_banner'>
-        <Container>
+        <Container className="justify-content-center align-items-center text-center" style={{width:"80%"}}>
           <br />
-          <h3 classname='text-lg' id="h21" style={{ color: "white" }}>Invitation to Sunday Worship Service</h3>
+          <h2 id="h21" style={{ color: "white"}}>It Start Now With You</h2>
           <p id='p1'>
-            In the middle of today’s busy and demanding world, it can be difficult to find moments of peace, hope, and spiritual connection.
-            That is why Foursquare Church warmly invites you to join us this Sunday for a refreshing time of worship, fellowship, and encouragement.
+            Foursquare leaders include pastors, chaplains, missionary workers and more. Growth starts with you and is a lifelong journey. We’re never done, and it’s even better when we’re growing together. 
+            Our relationship with God, with our family, with each other as a global movement—it all matters. We join in the work of the Holy Spirit being disciples of Jesus making disciples of Jesus.
             <br />
-            <p style={{color:"red"}}>Join us this Sunday for our 10:00 AM church Service </p>
-              <br/>
-          </p>
-          <h3 classname='text-lg' id="h21" style={{ color: "white" }}> Tuesday Weekly Service Invitation </h3>
-          <p id='p1'>
-            In the middle of a busy week, it is important to pause, reflect, and reconnect with God. Our Tuesday Weekly Service at Foursquare Church
-            provides a special opportunity to step away from daily pressures and spend meaningful time in God’s presence.
-            <br />
-              <p style={{color:"red"}}>Join us this Tuesday for our 7:00 PM church Service </p>
-          </p>
-          
-          <h3 classname='text-lg' id="h21" style={{ color: "white" }}> Thursday Weekly Service Invitation </h3>
-          <p id='p1'>
-            As the week moves forward, it is important to take time to renew your spirit and draw closer
-            to God. Our Thursday Weekly Service at Foursquare Church is a special time set aside for worship, prayer, and spiritual growth.
-            <br />
-              <p style={{color:"red"}}>Join us this Thursday for our 7:00 PM church Service </p>
           </p>
         </Container>
       </div>
       <br />
+      <Container id="tv">
+        <div className="d-flex align-items-center justify-content-center">
+          <Row>
+            <Col xs={12} md={6}>
+            <br/>
+            <br/>
+              <h3 classname='text-lg' id="h21" style={{ color: "black" }}>Invitation to Tuesday and Thursday Weekly Service and Sunday Worship Service.
+              </h3>
+              <br />
+              <div className="border-bottom border-2 border-danger" style={{ width: "50%" }} ></div>
+              <br />
+              <p id='p1'>
+                Finding moments of serenity, hope, and spiritual connection can occasionally be challenging in the hectic and demanding world of today. For this reason, 
+                Foursquare Church cordially invites you to join us every Tuesday, Thursday, and Sunday for a revitalizing period of worship, companionship, and support.
+                <br />
+                <br/>
+                 <p style={{ color: "red" }}>Join us this Tuesday for our 7:00 PM church Service </p>
+                  <p style={{ color: "red" }}>Join us this Thursday for our 7:00 PM church Service </p>
+                <p style={{ color: "red" }}>Join us this Sunday for our 10:00 AM church Service </p>
+              </p>
+            </Col>
+            <Col xs={12} md={6}>
+              <img className='img1' src={i_c}></img>
+            </Col>
+          </Row>
+        </div>
+        <br />
+        <br />
+      </Container>
       <br />
       <br />
     </div>
@@ -78,4 +85,5 @@ function About() {
   )
 }
 export default About
+
 

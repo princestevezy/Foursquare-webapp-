@@ -18,7 +18,7 @@ body {
   color: #61dafb;
 }
 .banner{
-          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../Images/Images/Home/Banner/b.png'); 
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../Images/Images/Home/Banner/p1.png'); 
           background-repeat: no-repeat;
           background-size: cover;
           width:100%;
@@ -41,20 +41,26 @@ body {
 @media (min-width:1025px) {
 .img1{
 
-          width:100%;
+          width:85%;
+          height: auto;
 
 }
 }
 @media (min-width:993px) {
 .img1{
 
-          width:100%;
+          width:90%;
+          height: auto;
           
 }
 }
 @media (max-width:992px) {
 .img1{
-          width:100%;
+          width:90%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          height: auto;
 
 }
 }
@@ -144,4 +150,9 @@ body {
       width:90%;
       display: block;
       font-size:40px;
+}
+
+.pp{
+     font-family:montserrat;
+
 }

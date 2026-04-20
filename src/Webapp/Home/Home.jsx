@@ -3,11 +3,11 @@ import Navbar1 from "../../Components/Navbar/Navbar";
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Button from 'react-bootstrap/Button';
-import four1 from '../../Images/Images/Home/4f.jpg';
-import pastor from '../../Images/Images/Home/pastor.png';
+import four1 from '../../Images/Images/Home/r.jpg';
+import pastor from '../../Images/Images/Home/p.jpg';
 import t_c from '../../Images/Images/Home/c.jpg';
 import sb from '../../Images/Images/Home/sb.jpg';
-import sm from '../../Images/Images/Home/sm.jpg';
+import sm from '../../Images/Images/Home/sm.png';
 import Carousel from 'react-bootstrap/Carousel';
 import './Home.css';
 
@@ -23,11 +23,13 @@ function Home() {
           <br />
           <br />
           <Container>
-            Connecting People
-            <br />
-            to Loving God
-            <br />
-            <Button variant="danger" size="sm">
+             FOURSQUARE GOSPEL CHURCH
+              <br />
+              NIGERIA
+              <br />
+          <font className='text-warning'>SALVATION CHAPEL</font>
+            <br/>
+            <Button variant="primary" size="lg" style={{ backgroundColor: "darkblue", border: "none" }}>
               About Us
             </Button>
           </Container>
@@ -133,19 +135,16 @@ function Home() {
         <Container>
           <Row className="justify-content-center">
             <Col md={4}>
-              <font id="h21">PASTOR
-                <br />
-                <font className='' style={{ fontSize: "19px" }}>MRS HELEN DOZIE</font>
-              </font>
-              <br />
+                <font className='pp' style={{ fontSize: "19px" }}>PASTOR MRS HELEN DOZIE</font>
+            <br/>
               <div className="border-bottom border-2 border-danger" style={{ width: "10%" }} ></div>
               <br/>
               <p id='p1' style={{ width: "100%" }}>We are a church that believes in Jesus, a church that loves God and people. Overwhelmed by the gift of salvation we have found in Jesus, we have a heart for
                 authentic worship, are passionate about the church, and are on
                 mission to see God’s kingdom established across the earth. </p>
             </Col>
-            <Col md={4} className="d-flex justify-content-center align-items-center">
-              <img  src={pastor} style={{width: "70%", height: "350px" }}></img>
+             <Col md={4} className="d-flex justify-content-center align-items-center">
+              <img  src={pastor} style={{width: "100%", height: "auto" }}></img>
             </Col>
           </Row>
         </Container>

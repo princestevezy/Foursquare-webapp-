@@ -1,0 +1,15 @@
+.serve_banner{
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../Images/Images/Serve/Banner/s.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width:100%;
+          height:300px;
+          font-size:35px;
+          color: white;    
+          font-family:montserrat;
+}
+.card-font{
+          font-family:montserratbold;
+          font-size: 15px;
+
+}

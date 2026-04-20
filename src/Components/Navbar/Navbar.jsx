@@ -1,9 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import { Container,Nav,Navbar,Row, Col } from "react-bootstrap";
+import { Container,Nav,Navbar} from "react-bootstrap";
 import Logo from "../../Images/Components/Navbar/four.png";
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import Form from 'react-bootstrap/Form';
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -12,7 +9,7 @@ import "./Navbar.css";
 
 function Navbar1(active){
  return(
-      <div>
+    <div>
     <Navbar bg="" variant="" expand="lg" className='navcolor'>
       <Container>
         <Navbar.Brand>
@@ -26,8 +23,8 @@ function Navbar1(active){
           <Nav className="ms-auto">
             <Link to="/home" className='mx-3 navlink1'   style={active.home}>HOME</Link>
             <Link to="/about" className='mx-3 navlink1'  style={active.about}> ABOUT US</Link>
-             <Link to="#"  className='mx-3 navlink1'  style={active.serve}>SERVE</Link>
-              <Link to=""  className='mx-3 navlink1'  style={active.media}>MEDIA</Link>
+             <Link to="/serve"  className='mx-3 navlink1'  style={active.serve}>SERVE</Link>
+              <Link to="/media"  className='mx-3 navlink1'  style={active.media}>MEDIA</Link>
             <Link to="#"  className='mx-3 navlink1'  style={active.contact}>CONTACT US</Link>
           </Nav>
         </Navbar.Collapse>
@@ -35,7 +32,11 @@ function Navbar1(active){
       </Container>
     </Navbar>
    </div>
-
 );
 }
 export default Navbar1;
+
+
+
+
+
