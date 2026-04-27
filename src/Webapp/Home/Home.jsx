@@ -9,6 +9,7 @@ import t_c from '../../Images/Images/Home/c.jpg';
 import sb from '../../Images/Images/Home/sb.jpg';
 import sm from '../../Images/Images/Home/sm.png';
 import Carousel from 'react-bootstrap/Carousel';
+import Footer from "../../Components/Footer/Footer";
 import './Home.css';
 
 
@@ -155,7 +156,7 @@ function Home() {
        <br/>
       <Container className="mb-8">
         <br />
-        <h3 className="text-lg h mb-8">Our Mission</h3>
+        <h2 className="text-lg h mb-8">Our Mission</h2>
         <br />
         <Row>
           <Col xs={12} md={4}>
@@ -198,6 +199,7 @@ function Home() {
         </Row>
       </Container>
       <br />
+    <Footer/>
     </div>
   );
 }

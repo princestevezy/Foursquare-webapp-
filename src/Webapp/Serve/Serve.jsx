@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar1 from "../../Components/Navbar/Navbar";
-import { Container, Row, Col,Card,Button } from "react-bootstrap";
+import { Container, Row, Col,Card} from "react-bootstrap";
 import fi from '../../Images/Components/Fi.png';
+import Footer from "../../Components/Footer/Footer";
 import './Serve.css';
 
 function Serve() {
@@ -12,7 +13,7 @@ function Serve() {
        <div class='serve_banner d-flex justify-content-center align-items-center text-center'>
         <br />
         <br />
-        <Container>
+         <Container>
           <font className='text-warning fs-1'>SER</font><font className='text-white fs-1'>VE</font>
           <br />
           <img src={fi} style={{ width: "150px" }}></img>
@@ -137,6 +138,7 @@ function Serve() {
       <br/>
       <br/>
    </Container>
+    <Footer/>
     </div>
   )
 }

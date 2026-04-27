@@ -3,8 +3,9 @@ import Navbar1 from "../../Components/Navbar/Navbar";
 import { Container, Row, Col, FormGroup } from "react-bootstrap";
 import fi from '../../Images/Components/Fi.png';
 import Logo from "../../Images/Components/Navbar/four.png";
-import i_c from '../../Images/Images/About/i_c.png';
+import i_c from '../../Images/Images/About/i_c.jpg';
 import { Link } from "react-router-dom";
+import Footer from "../../Components/Footer/Footer";
 import './About.css';
 
 function About() {
@@ -49,7 +50,8 @@ function About() {
       </div>
       <br />
       <Container id="tv">
-        <div className="d-flex align-items-center justify-content-center">
+        <div className="">
+          <container className="justify-content-center align-items-center">
           <Row>
             <Col xs={12} md={6}>
             <br/>
@@ -64,24 +66,24 @@ function About() {
                 Foursquare Church cordially invites you to join us every Tuesday, Thursday, and Sunday for a revitalizing period of worship, companionship, and support.
                 <br />
                 <br/>
-                 <p style={{ color: "red" }}>Join us this Tuesday for our 7:00 PM church Service </p>
-                  <p style={{ color: "red" }}>Join us this Thursday for our 7:00 PM church Service </p>
-                <p style={{ color: "red" }}>Join us this Sunday for our 10:00 AM church Service </p>
+                 <p style={{ color: "red" }}>Join us every Tuesday for our 7:00 PM church Service </p>
+                  <p style={{ color: "red" }}>Join us every Thursday for our 7:00 PM church Service </p>
+                <p style={{ color: "red" }}>Join us every Sunday for our 10:00 AM church Service </p>
               </p>
             </Col>
             <Col xs={12} md={6}>
-              <img className='img1' src={i_c}></img>
+              <img className='' src={i_c} style={{width:"100%"}}></img>
             </Col>
           </Row>
+          </container>
         </div>
         <br />
         <br />
       </Container>
       <br />
       <br />
+    <Footer/>
     </div>
-
-
   )
 }
 export default About

@@ -4,6 +4,7 @@ import  Home from './Webapp/Home/Home';
 import About from './Webapp/About/About';
 import Serve from './Webapp/Serve/Serve';
 import Media from './Webapp/Media/Media';
+import Contact_us from './Webapp/Contact us/Contact_us';
 
 function App() {
   return (
@@ -11,10 +12,11 @@ function App() {
        <Router>
         <div>
        <Routes>
-        <Route path='/home'  element={<Home/>}/>
+        <Route path='/'  element={<Home/>}/>
          <Route path='/about'  element={<About/>}/>
           <Route path='/serve'  element={<Serve/>}/>
           <Route path='/media'  element={<Media/>}/>
+          <Route path='/contactus'  element={<Contact_us/>}/>
        </Routes> 
        </div>
        </Router>
@@ -23,3 +25,4 @@ function App() {
 }
 
 export default App;
+ 

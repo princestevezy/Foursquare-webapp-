@@ -1,5 +1,5 @@
-.media_banner{
-          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../Images/Images/Media/Banner/m.jpg');
+.contactus_banner{
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../Images/Images/Contact_us/Banner/s.jpg');
           background-repeat: no-repeat;
           background-size: cover;
           width:100%;
@@ -8,7 +8,7 @@
           color: white;    
           font-family:montserrat;
 }
-.card-font{
+.cfont-card{
           font-family:montserratbold;
           font-size: 15px;
 
