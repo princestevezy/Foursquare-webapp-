@@ -31,7 +31,7 @@ function Footer () {
     </Col>
      <Col md={3}>
     <div>
-      <h5 className="footersm">About us</h5>
+      <h5 className="footersm">About</h5>
         </div>
         </Col>
           <Col md={3}>
