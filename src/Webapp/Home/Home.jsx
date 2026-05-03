@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar1 from "../../Components/Navbar/Navbar";
 import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
@@ -29,10 +30,12 @@ function Home() {
               EBUTE OJORA
               <br />
           <font className='text-warning'>SALVATION CHAPEL</font>
-            <br/>
+          <br/>
+            <Link to="/about">
             <Button variant="primary" size="lg" style={{ backgroundColor: "darkblue", border: "none" }}>
               About Us
             </Button>
+            </Link>
           </Container>
         </div>
       <br />

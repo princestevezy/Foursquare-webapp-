@@ -22,7 +22,7 @@ function Navbar1(active){
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Link to="/" className='mx-3 navlink1'   style={active.home}>HOME</Link>
-            <Link to="/about" className='mx-3 navlink1'  style={active.about}> ABOUT</Link>
+            <Link to="/about" className='mx-3 navlink1'  style={active.about}> ABOUT US</Link>
              <Link to="/serve"  className='mx-3 navlink1'  style={active.serve}>SERVE</Link>
               <Link to="/media"  className='mx-3 navlink1'  style={active.media}>MEDIA</Link>
             <Link to="/contactus"  className='mx-3 navlink1'  style={active.contact}>CONTACT US</Link>

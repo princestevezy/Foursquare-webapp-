@@ -25,16 +25,25 @@ function About() {
       </div>
       <br />
       <Container>
-        <p id='p1' className="text-center">Foursquare began as a local church in 1923, and we’ve been serving people to send ever since. We strive to develop “more and
-          growing leaders together on mission.” Learn more about where we are going and how we’re getting there.</p>
+      <h1 className="text-center" id='h21'>Ebute Ojora</h1>
+      <br/>
+      <p id='p1' className="justify-content-center align-items-center  text-center" style={{width:"100%"}}>  
+           Welcome to Foursquare Gospel Church, Ebute-Ojora, a community of love,
+           faith, and hope where individuals from all walks of life come to worship God, develop spiritually, and help 
+           others. We are more than just a house of worship; we are a family bound together by a common faith in the 
+           ability of God's Word to transform and the grace made possible by Jesus Christ.Raising a generation of 
+           believers who are grounded in truth, empowered by the Holy Spirit, and dedicated to living lives that reflect the 
+           character of Christ was the clear objective behind the founding of our church. We have developed from modest
+            beginnings into a thriving and dynamic community, 
+           but our fundamental goal of getting to know God well and sharing Him with the world has not altered.
+           Our work is driven by a deep love of worship. We consider worship to be a way of life reflected in
+            spirit and truth rather than merely an activity that takes place inside a structure. We foster
+             an environment where people can have a direct encounter with God via sincere worship, prayer,
+            and the teaching of the Word.
+           Our services are intended to be friendly, interesting, and spiritually uplifting,
+            giving everyone a chance to meaningfully encounter God's presence.
+          </p>
         <br />
-        <br />
-        <video controls style={{ width: "70%", height: "300px", display: "block", marginLeft: "auto", marginRight: "auto" }}>
-          <source src="https://res.cloudinary.com/dgsarpq5w/video/upload/v1700000000/video1_ky8l7n.mp4" type="video/mp4" />
-        </video>
-        <br />
-        <br />
-        <br/>
         <br/>
       </Container>
       <div class='invitation_banner'>
@@ -42,9 +51,15 @@ function About() {
           <br />
           <h2 id="h21" style={{ color: "white"}}>It Start Now With You</h2>
           <p id='p1'>
-            Foursquare leaders include pastors, chaplains, missionary workers and more. Growth starts with you and is a lifelong journey. We’re never done, and it’s even better when we’re growing together. 
-            Our relationship with God, with our family, with each other as a global movement—it all matters. We join in the work of the Holy Spirit being disciples of Jesus making disciples of Jesus.
+           Every great spiritual journey, in our opinion at Foursquare Gospel Church, Ebute-Ojora, 
+           starts with a single step, and it begins right now with you. This is more than simply a 
+           statement; it's a call to action and a reminder that your journey with God, your growth, and your purpose all start where you are right now.
+           As members of the global Foursquare family, we are linked to a movement of believers dedicated to sharing the good news of Jesus Christ with all peoples and ages.
+            Pastors, chaplains, missionaries, and devoted employees who serve diligently in various roles are among the Foursquare leaders in this organization.
+          Here at Ebute-Ojora, we accept this similar calling by empowering people to serve God and make a difference in their community and beyond.
             <br />
+            <br/>
+            <br/>
           </p>
         </Container>
       </div>

@@ -8,8 +8,6 @@ import './Footer.css';
 
 
 
-
-
 function Footer () {
   return (
     <footer className="bg-light text-black py-4 border shadow">
