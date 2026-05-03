@@ -26,7 +26,7 @@ function Home() {
           <Container>
              FOURSQUARE GOSPEL CHURCH
               <br />
-              NIGERIA
+              EBUTE OJORA
               <br />
           <font className='text-warning'>SALVATION CHAPEL</font>
             <br/>
