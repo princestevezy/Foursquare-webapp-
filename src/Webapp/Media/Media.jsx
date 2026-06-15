@@ -26,7 +26,7 @@ import './Media.css';
 
 function Media() {
   return (
-    <div>
+    <div id="mission" >
       <Navbar1 media={{ borderBottom: '3px solid red' }} />
       <div class='media_banner d-flex justify-content-center align-items-center text-center'>
         <br />
@@ -139,10 +139,11 @@ function Media() {
             </Col>
             </Row>
         </div>
+        <br />
+        <br />
+        <br />
        </Container>
-      <br/>
-      <br/>
-      <Footer/>
+       <Footer media={{ borderBottom: '3px solid red' }} />
       </div>
       
     

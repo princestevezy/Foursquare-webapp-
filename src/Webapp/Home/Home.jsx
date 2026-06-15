@@ -202,14 +202,11 @@ function Home() {
         </Row>
       </Container>
       <br />
-    <Footer/>
+    <Footer home={{ borderBottom: '3px solid red' }} />
     </div>
   );
 }
 export default Home;
-
-
-
 
 
 

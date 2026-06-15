@@ -97,7 +97,7 @@ function About() {
       </Container>
       <br />
       <br />
-    <Footer/>
+    <Footer aboutus={{ borderBottom: '3px solid red' }} />
     </div>
   )
 }

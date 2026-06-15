@@ -56,7 +56,7 @@ function Contact_us() {
       </Container>
       <br/>
       <br/>
-      <Footer/>
+      <Footer contactus={{ borderBottom: '3px solid red' }} />
     </div>
 
   )

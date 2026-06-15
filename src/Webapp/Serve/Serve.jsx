@@ -138,7 +138,7 @@ function Serve() {
       <br/>
       <br/>
    </Container>
-    <Footer/>
+    <Footer serve={{ borderBottom: '3px solid red' }} />
     </div>
   )
 }

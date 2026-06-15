@@ -2,13 +2,14 @@ import React from "react";
 import four from './four.png';
 import { Container,Row, Col } from "react-bootstrap";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import './Footer.css';
 
 
 
 
 
-function Footer () {
+function Footer (footeractive) {
   return (
     <footer className="bg-light text-black py-4 border shadow">
     <Container className="mb-4">
@@ -28,11 +29,21 @@ function Footer () {
     </div>
     </Col>
      <Col md={3}>
-    <div>
-      <h5 className="footersm">About</h5>
-        </div>
+     <div>
+      <h5 className="footersm">Quick Links</h5>
+      <br/>
+       <a href="/" className="footersm text-black text-decoration-none" style={footeractive.home}>HOME</a>
+        <br/>
+         <a href="/about" className="footersm text-black text-decoration-none" style={footeractive.aboutus}>ABOUT Us</a>
+        <br/>
+          <a href="/serve" className="footersm text-black text-decoration-none" style={footeractive.serve} >SERVE</a>
+        <br/>
+         <a href="/media" className="footersm text-black text-decoration-none" style={footeractive.media}>MEDIA</a>
+          <br/>
+          <a href="/contactus" className="footersm text-black text-decoration-none" style={footeractive.contactus}>CONTACT US</a>
+      </div>
         </Col>
-          <Col md={3}>
+     <Col md={3}>
      <div>
         <h5 className="footersm">Follow Us On</h5>
         <a href="#" className="text-blue fs-4">
@@ -54,6 +65,5 @@ function Footer () {
     </footer>
   );
 };
-
 export default Footer;
 
