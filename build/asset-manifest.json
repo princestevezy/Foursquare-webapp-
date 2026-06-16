@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f065ff4e.css",
-    "main.js": "/static/js/main.5d149847.js",
+    "main.css": "/static/css/main.a9b043f5.css",
+    "main.js": "/static/js/main.c81cbc8d.js",
     "static/js/453.242dad35.chunk.js": "/static/js/453.242dad35.chunk.js",
     "static/media/sm.png": "/static/media/sm.e174bf25f45b33c91a67.png",
     "static/media/s.png": "/static/media/s.939625da8b16b9acd553.png",
@@ -11,6 +11,7 @@
     "static/media/i_c.jpg": "/static/media/i_c.641229c293c0ca4296c3.jpg",
     "static/media/Montserrat-Black.ttf": "/static/media/Montserrat-Black.64d143ca253fb43306ce.ttf",
     "static/media/Montserrat-Bold.otf": "/static/media/Montserrat-Bold.0b805178b4ccfdfea788.otf",
+    "static/media/pmobile.jpg": "/static/media/pmobile.1bc416bcd1c99fb9d676.jpg",
     "static/media/c.jpg": "/static/media/c.70dc2dbb87df7abd7634.jpg",
     "static/media/im6.jpg": "/static/media/im6.70dc2dbb87df7abd7634.jpg",
     "static/media/four.png": "/static/media/four.6ba8c8f0cd7eb7c6786f.png",
@@ -37,12 +38,12 @@
     "static/media/im8.jpeg": "/static/media/im8.1557c1389749c1892747.jpeg",
     "static/media/im10.jpg": "/static/media/im10.f7beab099fac89ad9bee.jpg",
     "index.html": "/index.html",
-    "main.f065ff4e.css.map": "/static/css/main.f065ff4e.css.map",
-    "main.5d149847.js.map": "/static/js/main.5d149847.js.map",
+    "main.a9b043f5.css.map": "/static/css/main.a9b043f5.css.map",
+    "main.c81cbc8d.js.map": "/static/js/main.c81cbc8d.js.map",
     "453.242dad35.chunk.js.map": "/static/js/453.242dad35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f065ff4e.css",
-    "static/js/main.5d149847.js"
+    "static/css/main.a9b043f5.css",
+    "static/js/main.c81cbc8d.js"
   ]
 }
